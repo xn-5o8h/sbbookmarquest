@@ -1,0 +1,19 @@
+{
+  "id": "bookmarkuestnote",
+  "mainQuest" : true,
+  "title": "^gray;Bookmarquest note",
+  "text": "^orange;Abandon this quest^reset; to set a ^green; bookmark here^reset;.",
+  "completionText": "^red;how the fug you did that",
+  "moneyRange": [0, 0],
+
+  "invisible" : false,
+  "logOnly" : true,
+
+  "updateDelta": 10,
+  "script": "/quests/scripts/bookmarkuestnote.lua",
+  "scriptConfig": {
+    "portraits" : {
+      "default" : "player"
+    }
+  }
+}

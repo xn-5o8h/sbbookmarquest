@@ -1,0 +1,22 @@
+{
+  "id": "bookmarkuest_mori",
+  "title": "^red;You shouldn't be seeing this",
+  "text": "^red;If you're reading this the mod author's stupid - please send over your log files in a pastebin or whatever thanks based",
+  "completionText": "^red;how the fug you did that",
+  "moneyRange": [0, 0],
+
+  "invisible" : false,
+  "logOnly" : true,
+
+  "script": "/quests/scripts/bookmarkuest.lua",
+  "scriptConfig": {
+    "portraits" : { "default" : "player" },
+    "updateDelta": 5,
+    "titleText": "^red;Bookmarquest-mori",
+    "textIntro": "Bookmark from ^red;your death location^reset;, on",
+    "addId": false,
+    "removeQuestWhenNear": true,
+    "howNearIsNear": 6,
+    "trackerObjective": "Tracking ^red;your death location^reset;. ^cyan;Distance: "
+  }
+}

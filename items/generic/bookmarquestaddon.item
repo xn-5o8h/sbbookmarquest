@@ -1,0 +1,17 @@
+{
+  "itemName" : "bookmarquestaddon",
+
+  "shortdescription" : "Bookmarquest",
+  "description" : "Allows you to bookmark locations to your quest log!",
+
+  "rarity" : "Legendary",
+  "category" : "Tool",
+  "price" : 20,
+
+  "tooltipKind" : "mm",
+  "largeImage" : "/items/generated/codex.png",
+  "inventoryIcon" : "/interface/codex/iconBook.png",
+
+  "pickupQuestTemplates" : ["bookmarkuestnote"],
+  "consumeOnPickup" : true
+}

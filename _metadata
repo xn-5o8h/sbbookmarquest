@@ -1,0 +1,10 @@
+{
+  "author" : "Acyel",
+  "description" : "[h1]Update: Now requires you to buy an item at the Infinity Express for new characters![/h1]\n\nAllows you to set bookmarks via quests. \n\"[...]I don't see why we would need a mod for this.\" - a wise person\n\nOnce you've bought the Infinity Express's item, it'll gives you a quest that'll never disappear (well, unless you uninstall the mod). When you \"abandon\" it, it'll give you another quest that you'll be able to track to return to the position you were at, using the quest compass.\nFor planets, it also store their celestial coordinates (although this might not be really useful since you can already use the \"show quest location\" button in the navigation console).\n\nIt also ties in with the [url=http://steamcommunity.com/sharedfiles/filedetails/?id=732992186]Memento Mori[/url] (but it isn't required): when you have it in your inventory, a trackable quest to your death's position will appear. Once you get there, the quest will disappear automatically, and your Memento Mori will stop it's gloomy glow.\n(the Memento Mori's included in Frackin' Universe)\n\nI'm contemplating the idea of adding something to teleport you directly to your bookmarks.\n\nIf you have any idea or feedback, please feel free to post it.\n\n\nInspiration comes from this: http://community.playstarbound.com/threads/mod-request-compass-gps-to-mark-critical-areas.120442\nAnd as that wise person said in there, this mod's more or less not really useful as flags are OP.\n\n\nwhatever that was fun to make\n\n(Sorry for the pic's poor quality, I'm too lazy to try and retry to get nice ones)\n(Also sorry for the terrible name, that's the first thing I thought)\n\n\nNon-steam-workshop link: http://community.playstarbound.com/resources/bookmarkuest.4514/",
+  "friendlyName" : "Bookmarkuest",
+  "link" : "steam://url/CommunityFilePage/861376591",
+  "name" : "bookmarkuest",
+  "priority" : 9999999998,
+  "steamContentId" : "861376591",
+  "version" : "1.6"
+}
