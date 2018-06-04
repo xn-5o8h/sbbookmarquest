@@ -39,7 +39,10 @@ function update()
 		setTitle()
 
 		if self.removeQuestWhenNear and self.distance <= self.howNearIsNear then
-			if self.questTemplate == "bookmarkuest_mori" then world.setProperty("mementomori.lastDeathPosition", nil) end
+			if self.questTemplate == "bookmarkuest_mori" then
+				world.setProperty("mementomori.lastDeathPosition", nil)
+				status.setStatusProperty("mementomori.lastDeathInfo", nil)
+			end
 			quest.complete()
 		end
 
@@ -74,7 +77,7 @@ function setTitle()
 end
 
 function buildText()
-	local worldId = player.worldId()
+	local worldId = quest.parameters().worldId.name or player.worldId()
 	local worldTypeStr = {"", "^green; somewhere unknown", ""}
 
 	if string.find(worldId, "CelestialWorld", 0, 20) then worldTypeStr = {"a^gray;(n)^green; ", world.type(), " planet"}
