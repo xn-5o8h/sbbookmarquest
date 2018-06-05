@@ -51,6 +51,13 @@ function update()
 	end
 end
 
+function questFail()
+	if self.questTemplate == "bookmarkuest_mori" then
+		world.setProperty("mementomori.lastDeathPosition", nil)
+		status.setStatusProperty("mementomori.lastDeathInfo", nil)
+	end
+end
+
 function getPos()
 	local tmp = quest.parameters().posX
 	if tmp ~= nil then self.bookmark = { tmp.name, quest.parameters().posY.name } else self.bookmark = nil end
